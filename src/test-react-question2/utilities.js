@@ -12,7 +12,7 @@ function getAllDateInMonth() {
 
   for (let idx = -firstDateOfMonth.getDay() + 1; idx <= numberOfDates; idx++) {
     const date = new Date(currentYear, currentMonth, idx);
-    if (idx < 0) console.log(date);
+    /* if (idx < 0) console.log(date); */
     allDatesInMonth.push(date);
   }
 

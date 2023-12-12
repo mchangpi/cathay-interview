@@ -17,7 +17,7 @@ const defaultRange = {
   endDate: dateArr[dateArr.length - 1].monthday + 1,
 };
 
-console.log(dateArr);
+/* console.log(dateArr); */
 console.log(defaultRange);
 
 function DateRangePicker() {
@@ -62,8 +62,6 @@ function DateRangePicker() {
       return 'active';
     }
   }
-
-  // console.log('s:', startDate, 'e:', endDate);
 
   return (
     <div className="picker">

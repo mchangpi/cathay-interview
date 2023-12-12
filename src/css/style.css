@@ -1,7 +1,14 @@
 .container {
+  height: 95vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid gainsboro;
 }
 
 .picker {
@@ -33,6 +40,8 @@
 }
 
 .date {
+  display: flex;
+  justify-content: flex-end;
   width: 50px;
   height: 36px;
   border: none;

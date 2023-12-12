@@ -3,15 +3,15 @@ it. **/
 /* ANSWER */
 /* 
 The problem is about the function handleAddCount()
-Becase of rendering algorithm, React batch the three setState() calling to a 
+Becase of rendering algorithm, React batch the three setState() callings to a 
 SINGLE setSate() calling.
 
 To FIX it, modify the function handleAddCount(), 
 by callinng setState() based on previous state
 */
 
-import React from "react";
-import * as ReactDOM from "react-dom";
+import React from 'react';
+import * as ReactDOM from 'react-dom';
 
 class Count extends React.Component {
   constructor(props) {
@@ -51,6 +51,6 @@ class Count extends React.Component {
     );
   }
 }
-ReactDOM.render(<Count />, document.getElementById("root"));
+ReactDOM.render(<Count />, document.getElementById('root'));
 
 export default Count;

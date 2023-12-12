@@ -5,7 +5,7 @@ function DateItem({ date, handleClick, buttonClass }) {
         onClick={() => handleClick(date.monthday)}
         className={`date ${buttonClass}`}
       >
-        {date.monthday}日
+        {date.monthday.toString().padStart(2, ' ')}日
         <sup className="weekday">
           {['日', '六'].includes(date.weekday) && date.weekday}
         </sup>
