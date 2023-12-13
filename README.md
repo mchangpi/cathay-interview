@@ -2,7 +2,7 @@ Hello, This project is for Cathay Bank interview questions
 
 1. For the 6 questions of react-question, please check the following document:
 
-   [Answers for react-question](https://github.com/mchangpi/cathay-interview/tree/main/answers-react-question.pdf)
+   [Answers for react-question](https://github.com/mchangpi/cathay-interview/tree/main/doc/answers-react-question.pdf)
 
 2. For the React Task-1 of react-question2 (Date Range Component for current month):
 
